@@ -85,7 +85,7 @@ public class SelectArea extends ListActivity implements OnItemClickListener {
 			new AlertDialog.Builder(this)
 			.setCancelable(false)
 			.setTitle("设置")
-			.setMessage("将所在地区设置为 " + name[arg2] + " ？")
+			.setMessage("将所属地区设置为 " + name[arg2] + " ？")
 			.setPositiveButton("是", new DialogInterface.OnClickListener() {
 
 				@Override

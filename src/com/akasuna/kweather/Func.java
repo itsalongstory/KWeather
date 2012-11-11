@@ -29,7 +29,7 @@ public class Func {
 		url += "?t=" + System.currentTimeMillis();
 		System.out.println("old url is " + url);
 		
-		//url = "http://libuchao.sinaapp.com/index.php?url=" + url;
+		url = "http://akasuna.com/p.php?url=" + url;
 		System.out.println("new url is " + url);
 		HttpClient client = new DefaultHttpClient();
 		try {
