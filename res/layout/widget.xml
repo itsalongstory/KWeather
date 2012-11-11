@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:background="@drawable/widget_background"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgImg"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        style="@style/text_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textColor="#000000"
+        android:textSize="68dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:paddingRight="9dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:paddingRight="9dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTempF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

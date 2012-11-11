@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvDay"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/imgDayWeatherImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/tvDayWeatherDesc"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvDayTemp"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvDayWindDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvDayWindValue"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvNight"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/imgNightWeatherImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/tvNightWeatherDesc"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvNightTemp"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvNightWindDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvNightWindValue"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:title="刷新"
+		android:id="@+id/update"
+		android:icon="@drawable/ic_menu_refresh" />
+	<item
+		android:title="设置"
+		android:id="@+id/set"
+		android:icon="@drawable/ic_menu_settings" />
+	<item
+		android:title="关于"
+		android:icon="@drawable/ic_menu_about"
+		android:id="@+id/about" />
+</menu>	
