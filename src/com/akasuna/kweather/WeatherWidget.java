@@ -14,7 +14,7 @@ public class WeatherWidget extends AppWidgetProvider {
 	public void onDeleted(Context context, int[] appWidgetIds) {
 		// TODO Auto-generated method stub
 		super.onDeleted(context, appWidgetIds);
-		Toast.makeText(context, "�ݰݣ�", Toast.LENGTH_LONG).show();
+		Toast.makeText(context, "拜拜", Toast.LENGTH_LONG).show();
 	}
 
 	@Override
