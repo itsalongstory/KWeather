@@ -27,10 +27,10 @@ public class Func {
 		BufferedReader in = null;
 		String data = "";
 		url += "?t=" + System.currentTimeMillis();
-		System.out.println("old url is " + url);
+		System.out.println("the url is " + url);
 		
-		url = "http://akasuna.com/p.php?url=" + url;
-		System.out.println("new url is " + url);
+		//url = "http://akasuna.com/p.php?url=" + url;
+		//System.out.println("new url is " + url);
 		HttpClient client = new DefaultHttpClient();
 		try {
 			URI website = new URI(url);
@@ -181,7 +181,7 @@ public class Func {
 			JSONObject weather1 = new JSONObject(strJSON).getJSONObject("weatherinfo");
 			JSONObject weather2 = new JSONObject(strJSONExt).getJSONObject("weatherinfo");
 
-			String strUpdateTime = weather1.getString("time").replace(":", "");
+			//String strUpdateTime = weather1.getString("time").replace(":", "");
 			// Get city name
 			strCity1 = weather1.getString("city");
 			strCity2 = weather2.getString("city");
