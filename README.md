@@ -4,5 +4,3 @@ KWeather 是一个 Android 平台上开发天气预报程序的示例，可以�
 
 ![Screenshot](https://github.com/libuchao/KWeather/raw/master/res/drawable-hdpi/kweather_screen2.jpg)
 ![Screenshot](https://github.com/libuchao/KWeather/raw/master/res/drawable-hdpi/kweather_screen.jpg)
-
-EOF
